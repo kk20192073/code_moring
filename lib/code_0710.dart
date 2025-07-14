@@ -19,7 +19,7 @@ void main() {
 
   for (var nums in testCases) {
     int len = removeDuplicates(nums);
-    print('입력: nums = ${nums}');
+    print('입력: nums = $nums');
     print('출력: $len');
     print('설명: 중복 제거 배열: ${nums.sublist(0, len)}\n');
   }
