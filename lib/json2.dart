@@ -18,15 +18,7 @@ void main() {
       "정소린",
       "조민우"
     ],
-    "pages": 520,
-    "company": {
-      "departments": [
-        "개발팀",
-        "영업팀",
-        "대표팀",
-        "기획팀"
-      ]
-    }
+    "pages": 520
   };
 
   String title =
@@ -36,9 +28,6 @@ void main() {
   List<String> authors = List<String>.from(book["authors"]);
   int totalAuthors = authors.length;
   String pages = '${book["pages"]} 페이지';
-
-  List<String> departments = List<String>.from(book["company"]["departments"]);
-  List<String> cleanedDepartments = departments;
 
   print('책제목 : $title');
   print('가격 : $price');
