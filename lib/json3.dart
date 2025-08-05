@@ -16,7 +16,7 @@ void main() {
   List<String> cleanedDepartments = departments;
 
   print('회사명: $name');
-  print('직원 수: ${employeeCount}명');
+  print('직원 수: $employeeCount명');
   print('주소: $fullAddress');
   print('부서: ${cleanedDepartments.join(', ')}');
 }

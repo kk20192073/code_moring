@@ -17,7 +17,7 @@ int removeDuplicates(List<int> nums) {
     }
   }
 
-  // 필요 없는 뒤 요소 제거
+
   nums.length = k;
   return k;
 }
